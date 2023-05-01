@@ -5,8 +5,14 @@ class Sparko {
     this.socketServer = null;
     this.serverUrl = serverUrl;
     this.userPref = userPref;
-    this.httpUrl = '192.168.18.49:8080'
+    this.httpUrl = 'http://192.168.18.49:8080'
     this.users = new Users(this); // Pass the Sparko instance to the Users constructor
+  }
+
+
+  async test() {
+  console.log("test")
+  return "test"
   }
 
   async connect() {
