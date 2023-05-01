@@ -1,0 +1,15 @@
+{
+  "name": "sparko",
+  "version": "1.0.0",
+  "description": "Sparko RealTime Chat is a Node.js package that allows you to easily add real-time chat functionality to your web applications using WebSockets. This package provides a simple, yet powerful API for creating chat rooms and broadcasting messages to multiple clients simultaneously",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "ws": "^8.13.0"
+  }
+}
